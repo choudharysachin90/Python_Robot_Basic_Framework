@@ -1,7 +1,7 @@
 *** Settings ***
 
 *** Variables ***
-
+${url}
 
 *** Keywords ***
 OpenSiteHomePage
