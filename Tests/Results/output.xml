@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 4.1.2 (Python 3.7.3 on win32)" generated="20220315 21:12:57.498" rpa="false" schemaversion="2">
+<suite id="s1" name="Grofers" source="C:\MyPythonDevelopment\RobotScripts\firstRobotScriptOCT\Tests\Grofers.robot">
+<test id="s1-t1" name="User should be able to add a searched product to cart">
+<kw name="OpenDefaultBrowser" library="Base" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>about://blank</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220315 21:12:57.711" level="INFO">Opening browser 'firefox' to base url 'about://blank'.</msg>
+<msg timestamp="20220315 21:12:57.712" level="INFO">Firefox driver log is always forced to to: C:\MyPythonDevelopment\RobotScripts\firstRobotScriptOCT\Tests\Results\geckodriver-3.log</msg>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg timestamp="20220315 21:13:08.057" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" starttime="20220315 21:13:07.887" endtime="20220315 21:13:08.057"/>
+</kw>
+<msg timestamp="20220315 21:13:08.060" level="FAIL">WebDriverException: Message: Reached error page: about:neterror?e=malformedURI&amp;u=about%3A//blank&amp;c=UTF-8&amp;d=Please%20check%20that%20the%20URL%20is%20correct%20and%20try%20again.
+Stacktrace:
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.jsm:510:5
+checkReadyState@chrome://remote/content/marionette/navigate.js:64:24
+onNavigation@chrome://remote/content/marionette/navigate.js:312:39
+emit@resource://gre/modules/EventEmitter.jsm:160:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.jsm:44:25
+</msg>
+<status status="FAIL" starttime="20220315 21:12:57.711" endtime="20220315 21:13:08.060"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="NOT RUN" starttime="20220315 21:13:08.061" endtime="20220315 21:13:08.061"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:12:57.711" endtime="20220315 21:13:08.061"/>
+</kw>
+<kw name="CloseBrowser" library="Base" type="TEARDOWN">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<kw name="CloseBrowser" library="Base">
+<msg timestamp="20220315 21:13:08.078" level="FAIL">Maximum limit of started keywords exceeded.</msg>
+<status status="FAIL" starttime="20220315 21:13:08.077" endtime="20220315 21:13:08.078"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.077" endtime="20220315 21:13:08.078"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.076" endtime="20220315 21:13:08.078"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.076" endtime="20220315 21:13:08.078"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.076" endtime="20220315 21:13:08.078"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.076" endtime="20220315 21:13:08.078"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.075" endtime="20220315 21:13:08.078"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.074" endtime="20220315 21:13:08.078"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.074" endtime="20220315 21:13:08.078"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.074" endtime="20220315 21:13:08.078"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.074" endtime="20220315 21:13:08.078"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.073" endtime="20220315 21:13:08.078"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.073" endtime="20220315 21:13:08.078"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.072" endtime="20220315 21:13:08.078"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.072" endtime="20220315 21:13:08.079"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.072" endtime="20220315 21:13:08.079"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.071" endtime="20220315 21:13:08.079"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.071" endtime="20220315 21:13:08.079"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.071" endtime="20220315 21:13:08.079"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.071" endtime="20220315 21:13:08.079"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.070" endtime="20220315 21:13:08.080"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.070" endtime="20220315 21:13:08.080"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.068" endtime="20220315 21:13:08.080"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.068" endtime="20220315 21:13:08.080"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.068" endtime="20220315 21:13:08.080"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.068" endtime="20220315 21:13:08.080"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.067" endtime="20220315 21:13:08.080"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.067" endtime="20220315 21:13:08.080"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.067" endtime="20220315 21:13:08.081"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.066" endtime="20220315 21:13:08.081"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.066" endtime="20220315 21:13:08.081"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.066" endtime="20220315 21:13:08.081"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.065" endtime="20220315 21:13:08.081"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.065" endtime="20220315 21:13:08.081"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.065" endtime="20220315 21:13:08.082"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.064" endtime="20220315 21:13:08.082"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.064" endtime="20220315 21:13:08.082"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.064" endtime="20220315 21:13:08.082"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.063" endtime="20220315 21:13:08.082"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.063" endtime="20220315 21:13:08.082"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.062" endtime="20220315 21:13:08.083"/>
+</kw>
+<status status="FAIL" starttime="20220315 21:13:08.062" endtime="20220315 21:13:08.083">Maximum limit of started keywords exceeded.</status>
+</kw>
+<status status="FAIL" starttime="20220315 21:12:57.710" endtime="20220315 21:13:08.083">Setup failed:
+WebDriverException: Message: Reached error page: about:neterror?e=malformedURI&amp;u=about%3A//blank&amp;c=UTF-8&amp;d=Please%20check%20that%20the%20URL%20is%20correct%20and%20try%20again.
+Stacktrace:
+WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5
+UnknownError@chrome://remote/content/shared/webdriver/Errors.jsm:510:5
+checkReadyState@chrome://remote/content/marionette/navigate.js:64:24
+onNavigation@chrome://remote/content/marionette/navigate.js:312:39
+emit@resource://gre/modules/EventEmitter.jsm:160:20
+receiveMessage@chrome://remote/content/marionette/actors/MarionetteEventsParent.jsm:44:25
+
+
+Also teardown failed:
+Maximum limit of started keywords exceeded.</status>
+</test>
+<doc>This is my first Robot</doc>
+<status status="FAIL" starttime="20220315 21:12:57.499" endtime="20220315 21:13:08.086"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Grofers">Grofers</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,6 +1,6 @@
 *** Settings ***
 Resource  ../Resources/PageObjects/LandingPage.robot
-Resource  ../Resources/PageObjects/TopNavigatgion.robot
+Resource  ../Resources/PageObjects/TopNavigation.robot
 Resource  ../Resources/PageObjects/SearchPage.robot
 
 *** Variables ***

@@ -1,7 +1,8 @@
 *** Settings ***
 Documentation  This is my first Robot
+Resource  ../Resources/ApplicationResource.robot
 Resource  ../Resources/Base.robot
-Resource  ../Resources/ApplicationResources.robot
+
 
 Test Setup  OpenDefaultBrowser
 Test Teardown  Close Browser
