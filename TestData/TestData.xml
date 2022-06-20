@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<collection>
+    <genre category="Action">
+        <decade years="1980s">
+            <movie favorite="True" title="Indiana Jones: The raiders of the lost Ark">
+                <format multiple="No">DVD</format>
+                <year>1981</year>
+                <rating>PG</rating>
+                <description>
+                'Archaeologist and adventurer Indiana Jones
+                is hired by the U.S. government to find the Ark of the
+                Covenant before the Nazis.'
+                </description>
+            </movie>
+               <movie favorite="True" title="THE KARATE KID">
+               <format multiple="Yes">DVD,Online</format>
+               <year>1984</year>
+               <rating>PG</rating>
+               <description>None provided.</description>
+            </movie>
+
+        </decade>
+        <decade years="1990s">
+            <movie favorite="True" title="Rockstar">
+                <format multiple="No">DVD</format>
+                <year>1981</year>
+                <rating>PG</rating>
+                <description>
+                'Archaeologist and adventurer Indiana Jones
+                is hired by the U.S. government to find the Ark of the
+                Covenant before the Nazis.'
+                </description>
+            </movie>
+               <movie favorite="True" title="THE KID">
+               <format multiple="Yes">DVD,Online</format>
+               <year>1984</year>
+               <rating>PG</rating>
+               <description>None provided.</description>
+            </movie>
+
+        </decade>
+    </genre>
+
+</collection>
